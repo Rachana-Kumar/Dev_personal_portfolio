@@ -1,6 +1,6 @@
 import { Button } from "@/components/Button";
 import { AnimatedBorderButton } from "@/components/AnimatedBorderButton";
-import { ArrowRight, ChevronDown, Github, Linkedin } from "lucide-react";
+import { ArrowRight, ChevronDown, Github, Linkedin, Download } from "lucide-react";
 
 const skills = [
   "JavaScript",
@@ -85,7 +85,10 @@ export const Hero = () => {
                 Contact Me
                 <ArrowRight className="w-5 h-5" />
               </Button>
-              <AnimatedBorderButton />
+              <AnimatedBorderButton>
+                 <Download className="w-5 h-5"/>
+                  Download CV
+             </AnimatedBorderButton>
             </div>
 
             {/*Social Links*/}
@@ -110,6 +113,7 @@ export const Hero = () => {
           </div>
           {/* Right Column - Profile Image */}
           <div className="relative animate-fade-in animation-delay-300">
+
             {/* Profile Image */}
             <div className="relative max-w-md mx-auto">
               <div
