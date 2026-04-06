@@ -1,37 +1,37 @@
 const experiences = [
   {
-    period: "2022 — Present",
-    role: "Senior Frontend Engineer",
-    company: "Tech Innovators Inc.",
+    period: "2024 — Present",
+    role: "ULC Teaching Fellow and Grader",
+    company: "Arizona State University",
     description:
-      "Leading frontend architecture for a suite of fintech products. Implemented micro-frontend architecture, reduced bundle size by 40%, and mentored a team of 5 developers.",
-    technologies: ["React", "TypeScript", "Next.js", "GraphQL"],
+      "Evaluated assignments, quizzes, and exams across multiple courses, providing actionable feedback to support 200+ students in data analysis, cloud, and IT concepts. Collaborated with instructors to ensure consistent grading standards and improve course content. Led hands-on cloud sessions for 50+ students, simplifying core concepts. Delivered AWS Cloud Practitioner training to enhance engagement and completion rates.",
+    technologies: ["Data Analysis", "Cloud Computing", "Workflow Automation", "Learning Management Systems (Canvas, HubSpot)"],
     current: true,
   },
   {
-    period: "2020 — 2022",
-    role: "Frontend Engineer",
-    company: "Digital Solutions Co.",
+    period: "2023 — 2024",
+    role: "Junior AI Software Engineer",
+    company: "Deepcept AI",
     description:
-      "Built and maintained multiple React applications for enterprise clients. Introduced automated testing practices that improved code coverage to 85%.",
+      "Pioneered advanced AI solutions for smart security surveillance, including intruder detection and custom object recognition, while also developing remote communication access within existing surveillance software to improve efficiency and accessibility. Additionally, engineered a robust pipeline for table tennis stroke recognition and analytics.",
     technologies: ["React", "Redux", "Jest", "Cypress"],
     current: false,
   },
   {
-    period: "2019 — 2020",
-    role: "Junior Developer",
-    company: "StartUp Labs",
+    period: "2023 — 2023",
+    role: "Software Engineer Intern",
+    company: "Telestream",
     description:
-      "Contributed to the development of a SaaS platform from MVP to production. Collaborated with designers to implement pixel-perfect UI components.",
+      "Worked on backend development for the PRISM product, a real-time IP/SDI monitoring and analysis platform, implementing 20+ feature enhancements in audio and waveform applications and resolving 90+ bugs to meet product goals. Developed backend components using C++ and improved user experience by fixing UI issues with JavaScript, while following Agile methodology and SDLC practices throughout the development process.",
     technologies: ["React", "Node.js", "MongoDB", "AWS"],
     current: false,
   },
   {
-    period: "2018 — 2019",
-    role: "Freelance Developer",
-    company: "Self-Employed",
+    period: "2022 — 2023",
+    role: "Hybrid Tester of Smart Solution Systems",
+    company: "Bosch Ltd ",
     description:
-      "Delivered custom web solutions for small businesses and startups. Built 15+ websites and applications, handling everything from design to deployment.",
+      "Led rigorous quality assurance efforts for key smart subsystems contributing to Bosch’s smart campus initiative, making critical contributions across 5 of 14 subsystems. Conducted 300+ User Acceptance Tests (UAT) to ensure seamless functionality and user satisfaction, while driving an 80% reduction in system downtime to enhance overall efficiency and reliability.",
     technologies: ["JavaScript", "PHP", "WordPress", "MySQL"],
     current: false,
   },
@@ -60,8 +60,7 @@ export const Experience = () => {
             className="text-muted-foreground
            animate-fade-in animation-delay-200"
           >
-            A timeline of my professional growth, from curious beginner to
-            senior engineer leading teams and building products at scale.
+            A journey of my growth as an engineer—from building foundational skills to developing real-world systems and AI-driven applications.
           </p>
         </div>
 
@@ -90,7 +89,7 @@ export const Experience = () => {
                     <span className="text-sm text-primary font-medium">{exp.period}</span>
                     <h3 className="text-xl font-semibold mt-2">{exp.role}</h3>
                     <p className="text-muted-foreground">{exp.company}</p>
-                    <p className="text-sm text-muted-foreground mt-4">{exp.description}</p>
+                    <p className="text-sm text-muted-foreground mt-4 text-justify">{exp.description}</p>
                     <div className={'flex flex-wrap gap-2 mt-4 ${idx % 2 === 0 ? "md:justify-end" : ""}'}>
                       {exp.technologies.map((tech, techIdx) => (
                         <span
