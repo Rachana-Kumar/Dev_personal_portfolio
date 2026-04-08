@@ -63,19 +63,17 @@ export const Hero = () => {
 
             {/* Headline */}
             <div className="space-y-4">
-              <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold leading-tight animate-fade-in animation-delay-100">
-                Crafting <span className="text-primary glow-text">Digital</span>
+              <h1 className="text-5xl md:text-6xl lg:text-6xl font-bold leading-tight animate-fade-in animation-delay-100">
+                Building <span className="text-primary glow-text">Intelligent</span>
                 <br />
-                Experiences with
+                Systems with
                 <br />
                 <span className="font-serif italic font-normal text-white">
                   Code and Creativity
                 </span>
               </h1>
               <p className="text-lg text-muted-foreground max-w-lg animate-fade-in animation-delay-200">
-                Hi, Rachana Kumar — a software engineer specializing in
-                React, Next.js, and TypeScript. I build scalable, performant web
-                applications that users love.
+                Hi, I’m Rachana Kumar — a software engineer focused on backend systems, AI-driven applications, and real-time solutions.
               </p>
             </div>
 
