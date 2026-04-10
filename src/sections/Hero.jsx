@@ -1,12 +1,17 @@
 import { Button } from "@/components/Button";
 import { AnimatedBorderButton } from "@/components/AnimatedBorderButton";
-import { ArrowRight, ChevronDown, Github, Linkedin, Download } from "lucide-react";
+import {
+  ArrowRight,
+  ChevronDown,
+  Github,
+  Linkedin,
+  Download,
+} from "lucide-react";
 
 const skills = [
   "JavaScript",
   "TypeScript",
   "React",
-  "Next.js",
   "Node.js",
   "HTML",
   "Tailwind CSS",
@@ -14,10 +19,16 @@ const skills = [
   "AWS",
   "React",
   "MySQL",
-  "C++",
+  "Python",
   "Git",
   "JIRA",
   "Node-Red",
+  "Java",
+  "Spring Boot",
+  "kafka",
+  "Redis",
+  "MongoDB",
+  "PostgreSQL",
 ];
 
 export const Hero = () => {
@@ -64,7 +75,8 @@ export const Hero = () => {
             {/* Headline */}
             <div className="space-y-4">
               <h1 className="text-5xl md:text-6xl lg:text-6xl font-bold leading-tight animate-fade-in animation-delay-100">
-                Building <span className="text-primary glow-text">Intelligent</span>
+                Building{" "}
+                <span className="text-primary glow-text">Intelligent</span>
                 <br />
                 Systems with
                 <br />
@@ -73,7 +85,9 @@ export const Hero = () => {
                 </span>
               </h1>
               <p className="text-lg text-muted-foreground max-w-lg animate-fade-in animation-delay-200">
-                Hi, I’m Rachana Kumar — a software engineer focused on backend systems, AI-driven applications, and real-time solutions.
+                Hi, I’m Rachana Kumar — a software engineer focused on
+                distributed systems, AI-driven applications, and real-time
+                solutions.
               </p>
             </div>
 
@@ -84,9 +98,9 @@ export const Hero = () => {
                 <ArrowRight className="w-5 h-5" />
               </Button>
               <AnimatedBorderButton>
-                 <Download className="w-5 h-5"/>
-                  Download CV
-             </AnimatedBorderButton>
+                <Download className="w-5 h-5" />
+                Download CV
+              </AnimatedBorderButton>
             </div>
 
             {/*Social Links*/}
@@ -111,7 +125,6 @@ export const Hero = () => {
           </div>
           {/* Right Column - Profile Image */}
           <div className="relative animate-fade-in animation-delay-300">
-
             {/* Profile Image */}
             <div className="relative max-w-md mx-auto">
               <div

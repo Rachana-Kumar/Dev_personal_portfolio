@@ -3,40 +3,49 @@ import { AnimatedBorderButton } from "@/components/AnimatedBorderButton";
 
 const projects = [
   {
-    title: "Fintech Dashboard",
+    title: "Mini-Uber Backend Ecosystem",
     description:
-      "A comprehensive financial analytics platform with real-time data visualization, portfolio management, and AI-powered insights.",
-    image: "/projects/project1.png",
-    tags: ["React", "Typescript", "NodeJS"],
-    link: "#",
-    github: "#",
+      "A scalable, event-driven microservices architecture replicating a ride-sharing platform with sub-millisecond geo-matching, WebSocket telemetry, and dynamic surge pricing.",
+    image: "/projects/project1.svg", // Update with your actual image path
+    tags: ["Java", "Spring Boot", "Kafka", "Redis", "PostgreSQL"],
+    //link: "#",
+    github: "https://github.com/Rachana-Kumar/mini-uber-backend",
   },
   {
-    title: "E-Commerce Platform",
+    title: "Personal Portfolio",
     description:
-      "A full-featured e-commerce solution with inventory management, payment processing, and analytics dashboard.",
-    image: "/projects/project2.png",
-    tags: ["Next.js", "Stripe", "PostgreSQL", "Tailwind"],
-    link: "#",
-    github: "#",
+      "A responsive, interactive portfolio website designed to showcase my software engineering projects, professional experience, and technical skill set.",
+    image: "/projects/project2.svg", 
+    tags: ["React", "TypeScript", "Tailwind CSS"], 
+    //link: "#",
+    github: "https://github.com/Rachana-Kumar/Dev_personal_portfolio",
   },
   {
-    title: "AI Writing Assistant",
+    title: "Multipurpose Camouflage Robot",
     description:
-      "An intelligent writing tool powered by GPT-4, helping users create better content faster.",
-    image: "/projects/project3.png",
-    tags: ["React", "OpenAI", "Python", "FastAPI"],
-    link: "#",
-    github: "#",
+      "A versatile robotics system employing an Embodied Semantic Perception model for adaptive concealment, real-time environment analysis, and strategic mobility.",
+    image: "/projects/project3.svg", // Update with your actual image path
+    tags: ["Raspberry Pi", "NodeMCU", "ESP8266", "GSM"],
+    //link: "#",
+    github: "https://github.com/Rachana-Kumar",
   },
   {
-    title: "Project Management Tool",
+    title: "Automated Anaesthesia Loading Dock",
     description:
-      "A collaborative workspace for teams with real-time updates, task tracking, and integrations.",
-    image: "/projects/project4.png",
-    tags: ["Next.js", "Socket.io", "MongoDB", "Redis"],
-    link: "#",
-    github: "#",
+      "An innovative 3D-printed hydraulic loading dock designed for the precise, automated administration of local anaesthesia with a sub-5% error margin.",
+    image: "/projects/project4.svg", // Update with your actual image path
+    tags: ["Python", "MATLAB", "Hydraulics", "3D Printing"],
+    //link: "#",
+    github: "https://github.com/Rachana-Kumar",
+  },
+  {
+    title: "Gym Exercise Tracker",
+    description:
+      "A computer vision application that tracks 20+ exercise variations, mobilizing real-time notifications and form-correction alarms to prevent overexertion.",
+    image: "/projects/project5.svg", // Update with your actual image path
+    tags: ["Python", "MediaPipe", "Computer Vision"],
+    //link: "#",
+    github: "https://github.com/Rachana-Kumar/Gym-excercise-tracker",
   },
 ];
 
@@ -87,12 +96,12 @@ export const Projects = () => {
                 />
                 {/* Overlay Links */}
                 <div className="absolute inset-0 flex items-center justify-center gap-4 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                  <a
+                  {/*<a
                     href={project.link}
                     className="p-3 rounded-full glass hover:bg-primary hover:text-primary-foreground transition-all"
                   >
                     <ArrowUpRight className="w-5 h-5" />
-                  </a>
+                  </a>*/}
                   <a
                     href={project.github}
                     className="p-3 rounded-full glass hover:bg-primary hover:text-primary-foreground transition-all"

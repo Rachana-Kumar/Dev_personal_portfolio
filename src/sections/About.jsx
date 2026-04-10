@@ -50,31 +50,19 @@ export const About = () => {
             </h2>
             <div className="space-y-4 text-muted-foreground animate-fade-in animation-delay-200">
               <p>
-                Hello, I'm Rachana Kumar! I’m currently pursuing my Master's in
-                Computer Engineering at Arizona State University, expected to
-                graduate in May 2026.
+                Hello, I'm Rachana Kumar. I am a Software Engineer and current Computer Engineering Master’s student at Arizona State University. I am passionate about bridging the gap between innovative algorithms and robust, production-ready backend systems.
               </p>
               <p>
-                With experience across multiple internships, my technical
-                proficiency includes Python, C/C++, JavaScript, MySQL, Docker,
-                and React. I’ve developed AI solutions for smart security,
-                created pipelines for analytics, and contributed to backend
-                development for real-time monitoring platforms.
+                In my professional journey, I have cultivated a diverse technical foundation. As an AI Software Engineer at Deepcept AI, I pioneered smart security surveillance pipelines and custom object recognition. Previously, I optimized real-time monitoring platforms using C++ at Telestream, and championed critical Quality Assurance for smart campus infrastructure at Bosch.
               </p>
               <p>
-                I’m passionate about data and technology, with projects like a
-                Gym Exercise Tracker, a Camouflage Surveillance Robot, and
-                innovative AI-driven solutions in surveillance and analytics. I
-                also enjoy playing badminton, table tennis, and choreographing
-                cultural events!
+                Most recently, I architected a highly scalable, event-driven ride-sharing backend (Mini-Uber). Leveraging Java, Spring Boot, Kafka, and Redis, this microservices ecosystem handles sub-millisecond driver matching and real-time telemetry. Whether I am tuning AI models or decoupling distributed systems, I thrive on building efficient architectures that solve complex real-world bottlenecks.
               </p>
             </div>
 
             <div className="glass rounded-2xl p-6 glow-border animate-fade-in animation-delay-300">
               <p className="text-lg font-medium italic text-foreground">
-                "My mission is to create digital experiences that are not just
-                functional, but truly delightful — products that users love to
-                use and developers love to maintain."
+                "My mission is to architect intelligent, highly scalable systems that bridge the gap between advanced AI capabilities and resilient, event-driven infrastructure."
               </p>
             </div>
           </div>
