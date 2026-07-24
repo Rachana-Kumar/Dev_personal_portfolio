@@ -95,7 +95,15 @@ export const Hero = () => {
                 Contact Me
                 <ArrowRight className="w-5 h-5" />
               </Button>
-              <AnimatedBorderButton href="/RachanaKumar_CV.pdf" download>
+              <AnimatedBorderButton
+                onClick={() =>
+                  window.open(
+                    "/RachanaKumar_CV.pdf",
+                    "_blank",
+                    "noopener,noreferrer",
+                  )
+                }
+              >
                 <Download className="w-5 h-5" />
                 Download CV
               </AnimatedBorderButton>

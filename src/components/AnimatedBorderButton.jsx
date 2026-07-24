@@ -1,10 +1,11 @@
 import { Download } from "lucide-react";
 
-export const AnimatedBorderButton = ({ children, href, download }) => {
+export const AnimatedBorderButton = ({ children, href, download, ...props }) => {
   const Wrapper = href ? "a" : "button";
 
   return (
     <Wrapper
+      {...props}
       href={href}
       download={download}
       role={href ? "button" : undefined}
