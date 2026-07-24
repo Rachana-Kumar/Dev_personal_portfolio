@@ -1,8 +1,13 @@
 import { Download } from "lucide-react";
 
-export const AnimatedBorderButton = ({ children }) => {
+export const AnimatedBorderButton = ({ children, href, download }) => {
+  const Wrapper = href ? "a" : "button";
+
   return (
-    <button
+    <Wrapper
+      href={href}
+      download={download}
+      role={href ? "button" : undefined}
       className="relative bg-transparent border border-border 
         text-foreground hover:border-primary/50 transition-all 
         duration-1000 focus:outline-none focus-visible:ring-2 
@@ -33,6 +38,6 @@ export const AnimatedBorderButton = ({ children }) => {
       <span className="relative z-10 flex items-center justify-center gap-2">
         {children}
       </span>
-    </button>
+    </Wrapper>
   );
 };

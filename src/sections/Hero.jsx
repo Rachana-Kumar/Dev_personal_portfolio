@@ -85,9 +85,7 @@ export const Hero = () => {
                 </span>
               </h1>
               <p className="text-lg text-muted-foreground max-w-lg animate-fade-in animation-delay-200">
-                Hi, I’m Rachana Kumar — a software engineer focused on
-                distributed systems, AI-driven applications, and real-time
-                solutions.
+                Hi, I’m Rachana Kumar — a Computer Engineering graduate passionate about building intelligent software, scalable backend systems, and AI-driven applications.
               </p>
             </div>
 
@@ -97,7 +95,7 @@ export const Hero = () => {
                 Contact Me
                 <ArrowRight className="w-5 h-5" />
               </Button>
-              <AnimatedBorderButton>
+              <AnimatedBorderButton href="/RachanaKumar_CV.pdf" download>
                 <Download className="w-5 h-5" />
                 Download CV
               </AnimatedBorderButton>
