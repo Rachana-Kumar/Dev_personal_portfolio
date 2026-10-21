@@ -96,13 +96,8 @@ export const Hero = () => {
                 <ArrowRight className="w-5 h-5" />
               </Button>
               <AnimatedBorderButton
-                onClick={() =>
-                  window.open(
-                    "/RachanaKumar_CV.pdf",
-                    "_blank",
-                    "noopener,noreferrer",
-                  )
-                }
+                href="/RachanaKumar_CV.pdf"
+                download="RachanaKumar_CV.pdf"
               >
                 <Download className="w-5 h-5" />
                 Download CV
