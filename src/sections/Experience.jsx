@@ -9,7 +9,7 @@ const experiences = [
     current: true,
   },
   {
-    period: "2024 — Present",
+    period: "2024 — 2026",
     role: "ULC Teaching Fellow and Grader",
     company: "Arizona State University",
     description:
