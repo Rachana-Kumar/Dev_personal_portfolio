@@ -97,7 +97,8 @@ export const Hero = () => {
               </Button>
               <AnimatedBorderButton
                 href="/RachanaKumar_CV.pdf"
-                download="RachanaKumar_CV.pdf"
+                target="_blank"
+                rel="noopener,noreferrer"
               >
                 <Download className="w-5 h-5" />
                 Download CV
