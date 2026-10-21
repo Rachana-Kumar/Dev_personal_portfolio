@@ -3,6 +3,14 @@ import { AnimatedBorderButton } from "@/components/AnimatedBorderButton";
 
 const projects = [
   {
+    title: "Intelligent Bistro",
+    description:
+      "An AI-powered restaurant ordering app where customers browse a menu and manage their cart through natural language. A Groq-powered assistant translates requests into cart actions, backed by a Node.js API.",
+    image: "/projects/project6.svg",
+    tags: ["React Native", "Expo", "TypeScript", "Node.js", "Groq AI"],
+    github: "https://github.com/Rachana-Kumar/Intelligent-bistro",
+  },
+  {
     title: "Mini-Uber Backend Ecosystem",
     description:
       "A scalable, event-driven microservices architecture replicating a ride-sharing platform with sub-millisecond geo-matching, WebSocket telemetry, and dynamic surge pricing.",

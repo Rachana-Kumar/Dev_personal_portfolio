@@ -1,5 +1,14 @@
 const experiences = [
   {
+    period: "June 2026 — Present",
+    role: "Full Stack Engineer",
+    company: "Integrated Travel",
+    description:
+      "Built a full-stack maintenance management platform with 10+ REST APIs and 8+ responsive screens, enforcing secure role-based access and permissions for Residents, Maintenance Staff, and Property Managers. Designed a PostgreSQL schema with 6+ tables and trigger-based audit logging to support request creation, assignment, and status tracking across four request states with complete historical records. Owned authentication and request-management features from database schema through the React UI, collaborating with Git and GitHub.",
+    technologies: ["React", "PostgreSQL", "REST APIs", "Role-Based Access Control", "Git/GitHub"],
+    current: true,
+  },
+  {
     period: "2024 — Present",
     role: "ULC Teaching Fellow and Grader",
     company: "Arizona State University",
